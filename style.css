@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: url('weather.png');
+    background-size: contain;
+    font-family: 'Merriweather', sans-serif;
+    color: white;
+}
+
+.area, .temperature{
+    width: 40%;
+    height: 40vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-fahrenheit{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.degree-fahrenheit span{
+    margin: 8px;
+    font-size: 20px;
+}
+.degree-fahrenheit h2{
+    font-size: 30px;
+}
